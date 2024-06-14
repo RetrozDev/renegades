@@ -1,4 +1,4 @@
-.HomeHero {
+.HomeHeader {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -14,7 +14,7 @@
   background-position: center;
 }
 
-.HomeHero h1 {
+.HomeHeader h1 {
   font-size: 7rem;
   text-transform: uppercase;
   color: var(--light-color);
@@ -23,4 +23,5 @@
   z-index: 2;
   position: relative;
   letter-spacing: 0.2rem;
+  text-align: center;
 }

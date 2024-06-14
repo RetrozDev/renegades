@@ -3,6 +3,11 @@
   src: url("../assets/fonts/BlackHawk.otf");
 }
 
+@font-face {
+  font-family: RoadRage;
+  src: url("../assets/fonts/RoadRage.ttf");
+}
+
 :root {
   /* Colors */
   --main-color: #0a0a0a;

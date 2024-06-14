@@ -1,10 +1,12 @@
 import "../styles/Home/Home.css";
 
-import HomeHero from "../components/Home/HomeHero";
+import HomeHeader from "../components/Home/HomeHeader";
+import Home1stPar from "../components/Home/Home1stPar";
 const Home = () => {
   return (
     <div className="Home">
-      <HomeHero />
+      <HomeHeader />
+      <Home1stPar />
     </div>
   );
 };
