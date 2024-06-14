@@ -1,7 +1,10 @@
+import "../styles/Home/Home.css";
+
+import HomeHero from "../components/Home/HomeHero";
 const Home = () => {
   return (
     <div className="Home">
-      <h1>I&apos;m Home</h1>
+      <HomeHero />
     </div>
   );
 };
