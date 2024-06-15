@@ -6,13 +6,10 @@
 ::selection {
   background-color: var(--accent-color);
 }
-.trailerPlayer {
+.homeTrailer {
+  margin: 0 auto;
   display: flex;
   justify-content: center;
-  margin: 2rem 4rem;
-}
-.trailerPlayer video {
-  height: 100%;
-  width: 100%;
-  border-radius: 0.5rem;
+  align-items: center;
+  width: 90%;
 }
