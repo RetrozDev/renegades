@@ -3,20 +3,16 @@
   min-height: 100vh;
   overflow: hidden;
 }
-
-.trailerContainer iframe {
-  position: absolute;
-  top: 0;
-  left: 5%;
-  width: 90%;
-  height: 100%;
-  border: 0;
+::selection {
+  background-color: var(--accent-color);
 }
-
-.trailerContainer {
-  position: relative;
-  width: 100vw;
-  padding-bottom: 56.25%;
-  height: 0;
-  overflow: hidden;
+.trailerPlayer {
+  display: flex;
+  justify-content: center;
+  margin: 2rem 4rem;
+}
+.trailerPlayer video {
+  height: 100%;
+  width: 100%;
+  border-radius: 0.5rem;
 }

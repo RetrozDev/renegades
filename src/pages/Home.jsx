@@ -1,4 +1,7 @@
 import "../styles/Home/Home.css";
+import trailer from "../assets/trailer.mp4";
+
+import ReactPlayer from "react-player";
 
 import HomeHeader from "../components/Home/HomeHeader";
 import Home1stPar from "../components/Home/Home1stPar";
@@ -7,16 +10,14 @@ const Home = () => {
     <div className="Home">
       <HomeHeader />
       <Home1stPar />
-      <div className="trailerContainer">
-        <iframe
-          src="https://www.youtube.com/embed/O9N76XGdaEA?rel=0&modestbranding=0&controls=1&rel=0&playsinline=1&enablejsapi=1"
-          title="YouTube video player"
-          frameBorder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerPolicy="strict-origin-when-cross-origin"
-          allowFullScreen
-        />
-      </div>
+      <ReactPlayer
+        url={trailer}
+        controls={true}
+        className="trailerPlayer"
+        volume={0.1}
+        width={"auto"}
+        height={"auto"}
+      />
     </div>
   );
 };
