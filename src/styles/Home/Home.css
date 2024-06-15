@@ -1,4 +1,22 @@
 .Home {
   background-color: var(--main-color);
   min-height: 100vh;
+  overflow: hidden;
+}
+
+.trailerContainer iframe {
+  position: absolute;
+  top: 0;
+  left: 5%;
+  width: 90%;
+  height: 100%;
+  border: 0;
+}
+
+.trailerContainer {
+  position: relative;
+  width: 100vw;
+  padding-bottom: 56.25%;
+  height: 0;
+  overflow: hidden;
 }
